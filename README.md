@@ -20,11 +20,11 @@ Key features of OMA include:
 For more details, visit the [official OMA website](https://aosc.io/oma) or the [upstream GitHub repository](https://github.com/AOSC-Dev/oma).
 
 
-## 🚨 Why this fork?
+## 🚨 Why this hack?
 
 On some Debian-derived systems, package repository servers **restrict access based on the User-Agent string** of the client. Only requests from official tools like `apt` are allowed. This behavior breaks OMA out-of-the-box, since it uses its own UA string.
 
-This fork **modifies OMA's User-Agent to exactly mimic APT**, allowing it to bypass the whitelist and function normally with these repositories.
+This hack does not modify OMA upstream directly. Instead, it uses the upstream OMA repository as a submodule and applies a small patch during the build workflow to replace OMA's default User-Agent with APT's. Everything else remains identical to upstream OMA, ensuring compatibility while bypassing the repository whitelist.
 
 ## 🔍 What's changed?
 
