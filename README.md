@@ -6,7 +6,7 @@
 
 ## 🧠 What is OMA?
 
-[OMA](https://aosc.io/oma) (short for **Oh My Ailurus**) is a modern package management frontend designed for Debian-based distributions using `dpkg`. It is the default package management interface in [AOSC OS](https://aosc.io/), aiming to provide a more user-friendly, robust, and efficient experience than traditional APT tools.
+[OMA](https://aosc.io/oma) (short for **Oh My Ailurus**) is a modern package management frontend designed for Debian-like distributions using `dpkg`. It is the default package management interface in [AOSC OS](https://aosc.io/), aiming to provide a more user-friendly, robust, and efficient experience than traditional APT tools.
 
 Key features of OMA include:
 
